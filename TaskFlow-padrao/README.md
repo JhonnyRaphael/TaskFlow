@@ -1,6 +1,6 @@
 # TaskFlow
 
-Projeto acadêmico de gerenciamento de tarefas, organizado em um único repositório com frontend e backend separados. A implementação segue a organização dos exemplos do professor José Carmino Gomes Jr., com as adaptações de integração descritas em [COMPARACAO.md](COMPARACAO.md).
+Projeto acadêmico de gerenciamento de tarefas, organizado em um único repositório com frontend e backend separados. A implementação segue a organização dos exemplos do professor José Carmino Gomes Jr.
 
 ## Organização
 
@@ -82,21 +82,3 @@ npm run build
 npm test
 ```
 
-## Versionamento
-
-O repositório é iniciado uma vez na pasta principal. Um commit pode conter alterações do frontend, do backend ou de ambos.
-
-São versionados o código-fonte, os arquivos públicos da interface, os testes, as configurações, os dois arquivos de lock, os modelos `.env.example` e a documentação.
-
-O `.gitignore` mantém fora do Git dependências instaladas, compilação, cobertura, configuração `.env`, dados de execução e as cópias ZIP de referência. Os `.gitignore` existentes nas duas aplicações continuam válidos.
-
-Consulte [GITHUB.md](GITHUB.md) para criar o repositório remoto e enviar o primeiro commit.
-
-## Referências e autoria
-
-Este projeto adapta os exemplos didáticos publicados pelo professor:
-
-- [Frontend TaskFlow](https://github.com/prof-carmino-aulas/taskflow), commit `bfbd24f5cdb9df4432e2c7e68d41e6dcd7640f00`.
-- [TaskFlow Backend](https://github.com/prof-carmino-aulas/taskflo_backend), commit `2fe5b7c2d2df7ec385f4c52405e9872abbbecdb8`.
-
-O código do backend foi preservado. O frontend recebeu adaptações para consumir essa API e completar o CRUD na interface. A organização e os metadados dos arquivos de origem foram mantidos; a documentação distingue o código de referência das adaptações.
