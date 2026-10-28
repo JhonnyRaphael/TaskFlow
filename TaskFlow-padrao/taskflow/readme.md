@@ -1,8 +1,7 @@
 # TaskFlow - frontend integrado
 
-Frontend organizado a partir do repositório `prof-carmino-aulas/taskflow`, utilizando React, TypeScript, Vite, React Router, Axios, Lucide React, HTML e CSS.
+Projeto utiliza de React, TypeScript, Vite, React Router, Axios, Lucide React, HTML e CSS.
 
-Esta versão consome o backend da pasta irmã `taskflo_backend`. O código original que utilizava CrudCrud está preservado em `../referencia-professor/taskflow-original.zip`.
 
 ## Executar
 
@@ -56,4 +55,4 @@ npm run lint
 npm run build
 ```
 
-As adaptações em relação ao código do professor estão descritas em `../COMPARACAO.md`. Os testes da API permanecem no backend.
+
