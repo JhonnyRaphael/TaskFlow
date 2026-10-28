@@ -1,0 +1,23 @@
+# Dependências instaladas e resultados de compilação
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Configuração local; o modelo de configuração entra no Git
+.env
+.env.*
+!.env.example
+
+# Registros criados ao executar a API
+/taskflo_backend/data/
+
+# Cópias de consulta presentes apenas no pacote ZIP
+/referencia-professor/
+
+# Arquivos locais do sistema/editor
+.DS_Store
+Thumbs.db
+.idea/

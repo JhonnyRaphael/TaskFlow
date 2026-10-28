@@ -1,0 +1,75 @@
+.tasks-page {
+  display: grid;
+  gap: 24px;
+}
+
+.tasks-page__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tasks-page__heading p:not(.page-eyebrow) {
+  margin-bottom: 0;
+  color: var(--color-text-soft);
+  line-height: 1.6;
+}
+
+.tasks-page__heading > button {
+  flex: 0 0 auto;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.tasks-page__heading > button:hover {
+  background: var(--color-primary-hover);
+}
+
+.tasks-page__error {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid #fecdd3;
+  border-radius: 12px;
+  background: var(--color-danger-soft);
+  color: #be123c;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.tasks-page > p {
+  color: var(--color-text-soft);
+}
+
+@media (max-width: 680px) {
+  .tasks-page__heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .tasks-page__heading > button {
+    width: 100%;
+  }
+}
+
+.tasks-page__error p { margin-bottom: 10px; }
+
+.tasks-page__error button {
+  padding: 8px 12px;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  color: inherit;
+  background: transparent;
+}
+
+.tasks-page > .tasks-page__success {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--color-success-soft);
+  color: #047857;
+}
